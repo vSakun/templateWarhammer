@@ -1,2 +1,3 @@
 # templateWarhammer
-== templateWarhammer for Debik
+-------------------
+***templateWarhammer for Debik***
