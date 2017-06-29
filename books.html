@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>WARHAMMER-40K</title>
+	<meta name="description" content="WARHAMMER">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+	<header>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-8 logo">
+					<h1>WAR<span>HAMMER</span>-40K</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 head_mnu">
+				<nav id="top_mnu">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="books.html" class="activer">Книги</a></li>
+						<li><a href="#">Галерея</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Форум</a></li>
+						<li><a href="#">О Нас</a></li>
+					</ul>
+					<form action="POST" method="post" class="search">
+						<input type="search" name="se_in" placeholder="поиск" class="input" />
+						<input type="submit" name="se_in" value="" class="submit" />
+					</form>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="books_sec">
+					<div class="bread_crumbs">
+						<a href="index.html" class="crumbs">Главная</a>
+						<span>&#10095;&#10095;&#10095;</span>
+						<a href="#" class="crumbs">Книги</a>
+					</div>
+					<div class="col-md-3">
+						<div class="sort">
+							<div class="title_blok">Сортировать по:</div>
+							<ul>
+								<li><button class="viltr_sh dotSort active" onclick="currentSlideSort(1)">Автору</button></li>
+								<li><button class="viltr_sh dotSort" onclick="currentSlideSort(2)">Серии</button></li>
+								<li><button class="viltr_sh dotSort" onclick="currentSlideSort(3)">Жанру</button></li>
+							</ul>
+							<div class="sort_srh">
+								<form action="#" method="post" class="search_bk">
+									<select name="">
+										<option selected value="t0">Децл-рыцарь</option>
+										<option value="t1">Чебурашка</option>
+										<option value="t2">Крокодил Гена</option>
+										<option value="t3">Шапокляк</option>
+										<option value="t4">Крыса Лариса</option>
+										<input type="radio" name="subscribe" class="radio_in" checked>
+										<label for="radio">По дате добавления</label>
+										<input type="radio" name="subscribe" class="radio_in">
+										<label for="radio">По популярноси</label>
+										<input type="checkbox" name="subscribe" class="checkbox_in">
+										<label for="checkbox_in">В обратном порядке</label>
+										<input type="submit" name="subscribe" class="button_in" value="УЗУРПИРУЙ!">
+										<label for="subscribe-field"></label>
+									</select>
+								</form>
+							</div>
+							<div class="sort_srh">
+								<form action="#" method="post" class="search_bk">
+									<select name="">
+										<option selected value="t0">Страшные котакомбы</option>
+										<option value="t1">Чебурашка</option>
+										<option value="t2">Крокодил Гена</option>
+										<option value="t3">Шапокляк</option>
+										<option value="t4">Крыса Лариса</option>
+										<input type="radio" name="subscribe" class="radio_in" checked>
+										<label for="radio">По дате добавления</label>
+										<input type="radio" name="subscribe" class="radio_in">
+										<label for="radio">По популярноси</label>
+										<input type="checkbox" name="subscribe" class="checkbox_in">
+										<label for="checkbox_in">В обратном порядке</label>
+										<input type="submit" name="subscribe" class="button_in" value="УЗУРПИРУЙ!">
+										<label for="subscribe-field"></label>
+									</select>
+								</form>
+							</div>
+							<div class="sort_srh">
+								<form action="#" method="post" class="search_bk">
+									<select name="">
+										<option selected value="t0">Комедия</option>
+										<option value="t1">Чебурашка</option>
+										<option value="t2">Крокодил Гена</option>
+										<option value="t3">Шапокляк</option>
+										<option value="t4">Крыса Лариса</option>
+										<input type="radio" name="subscribe" class="radio_in" checked>
+										<label for="radio">По дате добавления</label>
+										<input type="radio" name="subscribe" class="radio_in">
+										<label for="radio">По популярноси</label>
+										<input type="checkbox" name="subscribe" class="checkbox_in">
+										<label for="checkbox_in">В обратном порядке</label>
+										<input type="submit" name="subscribe" class="button_in" value="УЗУРПИРУЙ!">
+										<label for="subscribe-field"></label>
+									</select>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="books_mimi">
+							<article class="books_blok">
+								<a href="#" class="title_link">Стрелок стреляет</a>
+								<div class="books_img col-md-4">
+									<img src="images/books/obl1.jpg" alt="">
+								</div>
+								<div class="books_inf col-md-8">
+									<ul>
+										<li><p><span>Автор: </span><a href="#">Грэм Махнил</a></p></li>
+										<li><p><span>Название: </span>Стрелок стреляет</p></li>
+										<li><p><span>Серия: </span><a href="#">Еесь Хоруса</a></p></li>
+										<li><p><span>Номер в серии: </span>2</p></li>
+										<li><p><span>Год выпуска: </span>2009</p></li>
+										<li><p><span>Рейтинг: </span>"Вай, Вассся!</p></li>
+										<li><p><span>Анотация: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque itaque ullam incidunt ea, molestias harum, nobis provident quas totam architecto sint, consequatur veritatis a, accusamus nulla eligendi distinctio dolorum!</p></li>
+									</ul>
+									<nav>
+										<ul>
+											<li>
+												<a href="#">Подробнее</a>
+											</li>
+											<li class="loadd">
+												<span>Скачать</span>
+												<ul class="dropdown-menu">
+													<li><a href="#">.txt</a></li>
+													<li><a href="#">.fb2</a></li>
+													<li><a href="#">.zip</a></li>
+													<li><a href="#">.pdf</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-md-12">
+									<div class="hid_inf">
+										<p class="dat_pub">Добавлено: 32.13.40001</p>
+										<p class="com_pub">Коментарии: 12</p>
+									</div>
+								</div>
+							</article>
+							<article class="books_blok">
+								<a href="#" class="title_link">Гуси-Лебеди</a>
+								<div class="books_img col-md-4">
+									<img src="images/books/obl2.jpg" alt="">
+								</div>
+								<div class="books_inf col-md-8">
+									<ul>
+										<li><p><span>Автор: </span><a href="#">Пих Чпохних</a></p></li>
+										<li><p><span>Название: </span>Гуси-Лебеди</p></li>
+										<li><p><span>Серия: </span><a href="#">Съесть Хоруса</a></p></li>
+										<li><p><span>Номер в серии: </span>25</p></li>
+										<li><p><span>Год выпуска: </span>2013</p></li>
+										<li><p><span>Рейтинг: </span>"что то типа казантипа"</p></li>
+										<li><p><span>Анотация: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque itaque ullam incidunt ea, molestias harum, nobis provident quas totam architecto sint, consequatur veritatis a, accusamus nulla eligendi distinctio dolorum!</p></li>
+									</ul>
+									<nav>
+										<ul>
+											<li>
+												<a href="#">Подробнее</a>
+											</li>
+											<li class="loadd">
+												<span>Скачать</span>
+												<ul class="dropdown-menu">
+													<li><a href="#">.txt</a></li>
+													<li><a href="#">.fb2</a></li>
+													<li><a href="#">.zip</a></li>
+													<li><a href="#">.pdf</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-md-12">
+									<div class="hid_inf">
+										<p class="dat_pub">Добавлено: 14.17.42006</p>
+										<p class="com_pub">Коментарии: 33</p>
+									</div>
+								</div>
+							</article>
+							<article class="books_blok">
+								<a href="#" class="title_link">Гватемала. Объединение.</a>
+								<div class="books_img col-md-4">
+									<img src="images/books/obl3.jpg" alt="">
+								</div>
+								<div class="books_inf col-md-8">
+									<ul>
+										<li><p><span>Автор: </span><a href="#">Хер Фанер</a></p></li>
+										<li><p><span>Название: </span>Гватемала. Объединение.</p></li>
+										<li><p><span>Серия: </span><a href="#">Спесь Хоруса</a></p></li>
+										<li><p><span>Номер в серии: </span>13</p></li>
+										<li><p><span>Год выпуска: </span>2015</p></li>
+										<li><p><span>Рейтинг: </span>"Нормас"</p></li>
+										<li><p><span>Анотация: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque itaque ullam incidunt ea, molestias harum, nobis provident quas totam architecto sint, consequatur veritatis a, accusamus nulla eligendi distinctio dolorum!</p></li>
+									</ul>
+									<nav>
+										<ul>
+											<li>
+												<a href="#">Подробнее</a>
+											</li>
+											<li class="loadd">
+												<span>Скачать</span>
+												<ul class="dropdown-menu">
+													<li><a href="#">.txt</a></li>
+													<li><a href="#">.fb2</a></li>
+													<li><a href="#">.zip</a></li>
+													<li><a href="#">.pdf</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-md-12">
+									<div class="hid_inf">
+										<p class="dat_pub">Добавлено: 001.2.43131</p>
+										<p class="com_pub">Коментарии: 1200</p>
+									</div>
+								</div>
+							</article>
+							<article class="books_blok">
+								<a href="#" class="title_link">Пилить-Молотить</a>
+								<div class="books_img col-md-4">
+									<img src="images/books/obl4.jpg" alt="">
+								</div>
+								<div class="books_inf col-md-8">
+									<ul>
+										<li><p><span>Автор: </span><a href="#">Зена "королева войнов"</a></p></li>
+										<li><p><span>Название: </span>Пилить-Молотить</p></li>
+										<li><p><span>Серия: </span><a href="#">Жесть Хоруса</a></p></li>
+										<li><p><span>Номер в серии: </span>1</p></li>
+										<li><p><span>Год выпуска: </span>2017</p></li>
+										<li><p><span>Рейтинг: </span>"Вай, Вассся!</p></li>
+										<li><p><span>Анотация: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque itaque ullam incidunt ea, molestias harum, nobis provident quas totam architecto sint, consequatur veritatis a, accusamus nulla eligendi distinctio dolorum!</p></li>
+									</ul>
+									<nav>
+										<ul>
+											<li>
+												<a href="#">Подробнее</a>
+											</li>
+											<li class="loadd">
+												<span>Скачать</span>
+												<ul class="dropdown-menu">
+													<li><a href="#">.txt</a></li>
+													<li><a href="#">.fb2</a></li>
+													<li><a href="#">.zip</a></li>
+													<li><a href="#">.pdf</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-md-12">
+									<div class="hid_inf">
+										<p class="dat_pub">Добавлено: 01.01.00001</p>
+										<p class="com_pub">Коментарии: 1</p>
+									</div>
+								</div>
+							</article>
+							<article class="books_blok">
+								<a href="#" class="title_link">Карабли в космосе</a>
+								<div class="books_img col-md-4">
+									<img src="images/books/obl5.jpg" alt="">
+								</div>
+								<div class="books_inf col-md-8">
+									<ul>
+										<li><p><span>Автор: </span><a href="#">Грэм Махнил</a></p></li>
+										<li><p><span>Название: </span>Стрелок стреляет</p></li>
+										<li><p><span>Серия: </span><a href="#">Еесь Хоруса</a></p></li>
+										<li><p><span>Номер в серии: </span>2</p></li>
+										<li><p><span>Год выпуска: </span>2009</p></li>
+										<li><p><span>Рейтинг: </span>"Вай, Вассся!</p></li>
+										<li><p><span>Анотация: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque itaque ullam incidunt ea, molestias harum, nobis provident quas totam architecto sint, consequatur veritatis a, accusamus nulla eligendi distinctio dolorum!</p></li>
+									</ul>
+									<nav>
+										<ul>
+											<li>
+												<a href="#">Подробнее</a>
+											</li>
+											<li class="loadd">
+												<span>Скачать</span>
+												<ul class="dropdown-menu">
+													<li><a href="#">.txt</a></li>
+													<li><a href="#">.fb2</a></li>
+													<li><a href="#">.zip</a></li>
+													<li><a href="#">.pdf</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-md-12">
+									<div class="hid_inf">
+										<p class="dat_pub">Добавлено: 32.13.40001</p>
+										<p class="com_pub">Коментарии: 12</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="post_last">
+					<h5>Последние добавленные</h5>
+					<div class="col-md-4 last_mat">
+						<h6>Книги</h6>
+						<ul>
+							<li><a href="#">Силовая броня своими руками</a></li>
+							<li><a href="#">Дешёвые ген. модификации</a></li>
+							<li><a href="#">Что такое "бластер"</a></li>
+							<li><a href="#">Как правильно пилить орков</a></li>
+							<li><a href="#">Великолепный Дэбик</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 last_mat">
+						<h6>Статьи</h6>
+						<ul>
+							<li><a href="#">"Бакс" разбушевался</a></li>
+							<li><a href="#">ТОП захватчиков галактики</a></li>
+							<li><a href="#">Заточка цепной пилы</a></li>
+							<li><a href="#">Дробовики и их модификации</a></li>
+							<li><a href="#">Кого вы порабощали в отпуске</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 last_mat map_site">
+						<h6>Карта сайта</h6>
+						<ul>
+							<li><a href="#">Главная</a>
+								<ul>
+									<li><a href="#">Новости</a></li>
+									<li><a href="books.html">Книги</a></li>
+									<li><a href="#">Галерея</a></li>
+									<li><a href="#">Статьи</a></li>
+									<li><a href="#">Форум</a></li>
+									<li><a href="#">О Нас</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="foot_inf">
+					<h4>&copy;WAR<span>HAMMER</span>-40K</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libs/jquery/jquery_3.2.1.js"></script>
+	<script src="js/book.js"></script>
+</body>
+</html>

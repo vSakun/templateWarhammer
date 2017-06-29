@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "CHSR";
+    src: url("../fonts/CHSR.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ELR";
+    src: url("../fonts/ELR.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "IM";
+    src: url("../fonts/IM.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MARINES";
+    src: url("../fonts/MARINES_.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ORKY-1";
+    src: url("../fonts/ORKY-1.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Pepsi-Cyr-Lat";
+    src: url("../fonts/Pepsi Cyr-Lat.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

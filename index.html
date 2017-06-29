@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>WARHAMMER-40K</title>
+	<meta name="description" content="WARHAMMER">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+	<header>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-8 logo">
+					<h1>WAR<span>HAMMER</span>-40K</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 head_mnu">
+				<nav id="top_mnu">
+					<ul>
+						<li><a href="index.html" class="activer">Главная</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="books.html">Книги</a></li>
+						<li><a href="#">Галерея</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Форум</a></li>
+						<li><a href="#">О Нас</a></li>
+					</ul>
+					<form action="POST" method="post" class="search">
+						<input type="search" name="se_in" placeholder="поиск" class="input" />
+						<input type="submit" name="se_in" value="" class="submit" />
+					</form>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="sl_1st">
+					<div class="col-md-3 litl_post">
+						<ul>
+							<li class="dot" onclick="currentSlide(1)">
+								<div class="mini_info">
+									<h6>Волкодавы жмуться к центру</h6>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide1.jpg" alt="">
+							</li>
+							<li class="dot" onclick="currentSlide(2)">
+								<div class="mini_info">
+									<h6>Пупковые рыцари находят впадину</h6>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide2.jpg" alt="">
+							</li>
+							<li class="dot" onclick="currentSlide(3)">
+								<div class="mini_info">
+									<h6>Карупция в рядах имперцев</h6>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide3.jpg" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-9 slide">
+						<div class="slide_vis">
+							<div class="sl_bloc">
+								<div class="max_info">
+									<h5>Волкодавы жмуться к центру</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide1.jpg" alt="">
+							</div>
+							<div class="sl_bloc">
+								<div class="max_info">
+									<h5>Пупковые рыцари находят впадину</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide2.jpg" alt="">
+							</div>
+							<div class="sl_bloc">
+								<div class="max_info">
+									<h5>Карупция в рядах имперцев</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide3.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="sl_rand">
+					<h5>Случайная новость</h5>
+					<div class="mn_nav">
+						<a class="prev" onclick="plusSlidesRand(-1)">&#10094;&#10094;&#10094;</a>
+						<a class="next" onclick="plusSlidesRand(1)">&#10095;&#10095;&#10095;</a>
+					</div>
+					<div class="slide_fhri">
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Волкодавы жмуться к центру</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide1.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Пупковые рыцари находят впадину</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide2.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Карупция в рядах имперцев</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide3.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="slide_fhri">
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>"Бакс" разбушевался</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide4.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Великолепный Дэбик</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide5.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Как правильно пилить орков</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide6.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="slide_fhri">
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Что такое "бластер"</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide7.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Силовая броня своими руками</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide8.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="slide_r">
+								<div class="inf_sl">
+									<h6>Дешёвые ген. модификации</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore nisi, corporis, quasi, cum soluta quos ducimus culpa officia, enim fuga dicta iste?</p>
+									<a href="#">Подробнее</a>
+								</div>
+								<img src="images/slide/slide9.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="post_last">
+					<h5>Последние добавленные</h5>
+					<div class="col-md-4 last_mat">
+						<h6>Книги</h6>
+						<ul>
+							<li><a href="#">Силовая броня своими руками</a></li>
+							<li><a href="#">Дешёвые ген. модификации</a></li>
+							<li><a href="#">Что такое "бластер"</a></li>
+							<li><a href="#">Как правильно пилить орков</a></li>
+							<li><a href="#">Великолепный Дэбик</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 last_mat">
+						<h6>Статьи</h6>
+						<ul>
+							<li><a href="#">"Бакс" разбушевался</a></li>
+							<li><a href="#">ТОП захватчиков галактики</a></li>
+							<li><a href="#">Заточка цепной пилы</a></li>
+							<li><a href="#">Дробовики и их модификации</a></li>
+							<li><a href="#">Кого вы порабощали в отпуске</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 last_mat map_site">
+						<h6>Карта сайта</h6>
+						<ul>
+							<li><a href="#">Главная</a>
+								<ul>
+									<li><a href="#">Новости</a></li>
+									<li><a href="books.html">Книги</a></li>
+									<li><a href="#">Галерея</a></li>
+									<li><a href="#">Статьи</a></li>
+									<li><a href="#">Форум</a></li>
+									<li><a href="#">О Нас</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="foot_inf">
+					<h4>&copy;WAR<span>HAMMER</span>-40K</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libs/jquery/jquery_3.2.1.js"></script>
+	<script src="js/js.js"></script>
+</body>
+</html>
